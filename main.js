@@ -6,7 +6,9 @@ const musics = [
     "원룸 서사시",
     "피아노 도둑",
     "벚꽃",
-    "소년소녀"
+    "소년소녀",
+    "lifestar vista",
+    "쌓기 놀이"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -32,7 +34,9 @@ const audioFiles2_1 = [
     "../musics/part2/Oneroom Zyozishi (mp3cut.net).mp3",
     "../musics/part2/Piano dorobou (mp3cut.net).mp3",
     "../musics/part2/Sakura (mp3cut.net).mp3",
-    "../musics/part2/Shounen Shoujo (mp3cut.net).mp3"
+    "../musics/part2/Shounen Shoujo (mp3cut.net).mp3",
+    "../musics/part2/lifestar vista (mp3cut.net).mp3",
+    "../musics/part2/tsumiki (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
