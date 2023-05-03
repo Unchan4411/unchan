@@ -21,7 +21,9 @@ const musics = [
     "감기",
     "생명에 걸맞아",
     "유령",
-    "셈노래"
+    "셈노래",
+    "하늘에 노래하면",
+    "달빛, 거리를 태우다"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -62,7 +64,9 @@ const audioFiles2_1 = [
     "../musics/part2/Kaze (mp3cut.net).mp3",
     "../musics/part2/Inochini Fusawashii (mp3cut.net).mp3",
     "../musics/part2/Yurei (mp3cut.net).mp3",
-    "../musics/part2/Kazoeuta (mp3cut.net).mp3"
+    "../musics/part2/Kazoeuta (mp3cut.net).mp3",
+    "../musics/part2/Sorani utaeba (mp3cut.net).mp3",
+    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -91,7 +95,9 @@ const audioFiles2_2 = [
     "../musics/part2/Kaze (mp3cut.net) (1).mp3",
     "../musics/part2/Inochini Fusawashii (mp3cut.net) (1).mp3",
     "../musics/part2/Yurei (mp3cut.net) (1).mp3",
-    "../musics/part2/Kazoeuta (mp3cut.net) (1).mp3"
+    "../musics/part2/Kazoeuta (mp3cut.net) (1).mp3",
+    "../musics/part2/Sorani utaeba (mp3cut.net) (1).mp3",
+    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net) (1).mp3"
 ]
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
