@@ -18,7 +18,10 @@ const musics = [
     "어느 반짝임",
     "자학가 앨리",
     "스피드와 마찰",
-    "감기"
+    "감기",
+    "생명에 걸맞아",
+    "유령",
+    "셈노래"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -56,7 +59,10 @@ const audioFiles2_1 = [
     "../musics/part2/Aru kagayaki (mp3cut.net).mp3",
     "../musics/part2/Jigyakukano arii (mp3cut.net).mp3",
     "../musics/part2/Speed To Masatsu (mp3cut.net).mp3",
-    "../musics/part2/Kaze (mp3cut.net).mp3"
+    "../musics/part2/Kaze (mp3cut.net).mp3",
+    "../musics/part2/Inochini Fusawashii (mp3cut.net).mp3",
+    "../musics/part2/Yurei (mp3cut.net).mp3",
+    "../musics/part2/Kazoeuta (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -82,7 +88,10 @@ const audioFiles2_2 = [
     "../musics/part2/Aru kagayaki (mp3cut.net) (1).mp3",
     "../musics/part2/Jigyakukano arii (mp3cut.net) (1).mp3",
     "../musics/part2/Speed To Masatsu (mp3cut.net) (1).mp3",
-    "../musics/part2/Kaze (mp3cut.net) (1).mp3"
+    "../musics/part2/Kaze (mp3cut.net) (1).mp3",
+    "../musics/part2/Inochini Fusawashii (mp3cut.net) (1).mp3",
+    "../musics/part2/Yurei (mp3cut.net) (1).mp3",
+    "../musics/part2/Kazoeuta (mp3cut.net) (1).mp3"
 ]
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
