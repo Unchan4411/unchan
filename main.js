@@ -13,7 +13,12 @@ const musics = [
     "지네",
     "쏙독새의 별",
     "첫눈",
-    "어둠 속, 떠나 돌아오지 못하다"
+    "어둠 속, 떠나 돌아오지 못하다",
+    "계절은 차례차례 죽어간다",
+    "어느 반짝임",
+    "자학가 앨리",
+    "스피드와 마찰",
+    "감기"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -46,7 +51,12 @@ const audioFiles2_1 = [
     "../musics/part2/Mukade (mp3cut.net).mp3",
     "../musics/part2/Yodakano hoshi (mp3cut.net).mp3",
     "../musics/part2/Hatsuyuki (mp3cut.net).mp3",
-    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net).mp3"
+    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net).mp3",
+    "../musics/part2/Kisetsu Wa Tsugitsugi Shindeiku (mp3cut.net).mp3",
+    "../musics/part2/Aru kagayaki (mp3cut.net).mp3",
+    "../musics/part2/Jigyakukano arii (mp3cut.net).mp3",
+    "../musics/part2/Speed To Masatsu (mp3cut.net).mp3",
+    "../musics/part2/Kaze (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -67,7 +77,12 @@ const audioFiles2_2 = [
     "../musics/part2/Mukade (mp3cut.net) (1).mp3",
     "../musics/part2/Yodakano hoshi (mp3cut.net) (1).mp3",
     "../musics/part2/Hatsuyuki (mp3cut.net) (1).mp3",
-    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net) (1).mp3"
+    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net) (1).mp3",
+    "../musics/part2/Kisetsu Wa Tsugitsugi Shindeiku (mp3cut.net) (1).mp3",
+    "../musics/part2/Aru kagayaki (mp3cut.net) (1).mp3",
+    "../music/part2/Jigyakukano arii (mp3cut.net) (1).mp3",
+    "../musics/part2/Speed To Masatsu (mp3cut.net) (1).mp3",
+    "../musics/part2/Kaze (mp3cut.net) (1).mp3"
 ]
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
