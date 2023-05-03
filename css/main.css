@@ -1,0 +1,243 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/아마자라시\ 배경화면.jpg') center center;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -370%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+.container input{
+    background-color: #337cbb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding:15px;
+    min-height: 30px; 
+    min-width: 120px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.container input:hover{
+    background-color:#286193;
+}
+
+#counter{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -350%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
+.div3_2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2개의 열 */
+    grid-template-rows: repeat(2, 1fr); /* 2개의 행 */
+    gap: 10px; /* 버튼 사이의 간격 */
+}
+.div3_2 input{
+    background-color: #337cbb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding:15px;
+    min-height: 30px; 
+    min-width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div3_2 input:hover{
+    background-color:#286193;
+}
+.btn_fixed {
+    width: 550px; /* 버튼의 고정 폭 */
+    height: 50px; /* 버튼의 고정 높이 */
+    overflow: hidden; /* 텍스트가 버튼을 벗어나지 않도록 함 */
+}
+
+
+.div3_3 input{
+    background-color: #337cbb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    min-height: 30px; 
+    min-width: 90px;
+    font-size: 17px;
+    font-weight: bold;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-53%, 160%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div3_3 input:hover{
+    background-color:#286193;
+}
+
+.container4{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#counter2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -180%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#musicTitle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 20%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#btnNext{
+    background-color: #337cbb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    min-height: 30px; 
+    min-width: 90px;
+    font-size: 17px;
+    font-weight: bold;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-53%, 160%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btnNext:hover{
+    background-color:#286193;
+}
+
+#counter3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -180%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+#musicTitle2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 20%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#btnReload{
+    background-color: #337cbb;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    min-height: 30px; 
+    min-width: 90px;
+    font-size: 17px;
+    font-weight: bold;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-53%, 160%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#btnReload:hover{
+    background-color:#286193;
+}

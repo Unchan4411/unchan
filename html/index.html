@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazarashi 노래 맞추기</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<boby>
+    <main id="main">
+        <div class="h1">
+            <h1>amazarashi</h1>
+        </div>
+        <div id="div1" class="container">
+            <ul>
+                <li>
+                    <input type="button" id="btn_highlight" value="▶노래 하이라이트 듣고 맞추기" onclick="ToggleBtn_highlight()">
+                    <!-- <button type="button" id="">▶노래 하이라이트 듣고 맞추기</button> -->
+                </li>
+                <li>
+                    <input type="button" id="btn_prelude" value="▶노래 0.1초 듣고 맞추기" onclick="ToggleBtn_prelude()">
+                    <!-- <button type="button" id="btn_prelude">▶노래 전주 1초 듣고 맞추기</button> -->
+                </li>
+                <li>
+                    <input type="button" id="btn_lyrics" value="▶노래 가사 보고 맞추기" onclick="ToggleBtn_lyrics()">
+                    <!-- <button type="button" id="btn_lyrics">▶노래 가사 보고 맞추기</button> -->
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="container2">
+            <input type="button" id="btn_start" value="시작">
+        </div> -->
+        <div id="div3" class="container3">
+            <div id>
+                <p id="counter">undefined</p>
+            </div>
+            <div class="div3_2">
+                <input type="button" id="btn1" class="btn_fixed" value="btn1" onclick="CorrectBtn('btn1')">
+                <input type="button" id="btn2" class="btn_fixed" value="btn2" onclick="CorrectBtn('btn2')">
+                <input type="button" id="btn3" class="btn_fixed" value="btn3" onclick="CorrectBtn('btn3')">
+                <input type="button" id="btn4" class="btn_fixed" value="btn4" onclick="CorrectBtn('btn4')">
+            </div>
+            <div class="div3_3">
+                <input type="button" id="btnReplay" value="⟳ 다시 재생" onclick="PlayMusic(tempAudioFiles2_1[0])">
+            </div>
+        </div>
+        <div id="div4" class="container4">
+            <p id="counter2">undefined</p>
+            <p id="musicTitle">undefiend</p>
+            <input type="button" id="btnNext" value="다음" onclick="ToggleBtn_prelude2(); StopMusic();">
+        </div>
+        <div id="div5" class="container5">
+            <p id="counter3">undefined</p>
+            <p id="musicTitle2">undefiend</p>
+            <input type="button" id="btnReload" value="⟳ 처음으로" onclick="Reload()">
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/2f9a927704.js" crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
+</boby>
+</html>
