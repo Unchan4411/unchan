@@ -80,7 +80,7 @@ const audioFiles2_2 = [
     "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net) (1).mp3",
     "../musics/part2/Kisetsu Wa Tsugitsugi Shindeiku (mp3cut.net) (1).mp3",
     "../musics/part2/Aru kagayaki (mp3cut.net) (1).mp3",
-    "../music/part2/Jigyakukano arii (mp3cut.net) (1).mp3",
+    "../musics/part2/Jigyakukano arii (mp3cut.net) (1).mp3",
     "../musics/part2/Speed To Masatsu (mp3cut.net) (1).mp3",
     "../musics/part2/Kaze (mp3cut.net) (1).mp3"
 ]
