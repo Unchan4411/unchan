@@ -10,7 +10,10 @@ const musics = [
     "Lifestar vista",
     "쌓기 놀이",
     "미래 만들기(あまざらし)",
-    "지네"
+    "지네",
+    "쏙독새의 별",
+    "첫눈",
+    "어둠 속, 떠나 돌아오지 못하다"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -40,7 +43,10 @@ const audioFiles2_1 = [
     "../musics/part2/lifestar vista (mp3cut.net).mp3",
     "../musics/part2/tsumiki (mp3cut.net).mp3",
     "../musics/part2/Miraizukuri(あまざらし) (mp3cut.net).mp3",
-    "../musics/part2/Mukade (mp3cut.net).mp3"
+    "../musics/part2/Mukade (mp3cut.net).mp3",
+    "../musics/part2/Yodakano hoshi (mp3cut.net).mp3",
+    "../musics/part2/Hatsuyuki (mp3cut.net).mp3",
+    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -58,7 +64,10 @@ const audioFiles2_2 = [
     "../musics/part2/lifestar vista (mp3cut.net) (1).mp3",
     "../musics/part2/tsumiki (mp3cut.net) (1).mp3",
     "../musics/part2/Miraizukuri(あまざらし) (mp3cut.net) (1).mp3",
-    "../musics/part2/Mukade (mp3cut.net) (1).mp3"
+    "../musics/part2/Mukade (mp3cut.net) (1).mp3",
+    "../musics/part2/Yodakano hoshi (mp3cut.net) (1).mp3",
+    "../musics/part2/Hatsuyuki (mp3cut.net) (1).mp3",
+    "../musics/part2/Yamino naka yukite kaeranu (mp3cut.net) (1).mp3"
 ]
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
