@@ -29,7 +29,10 @@ const musics = [
     "달이 아름다워",
     "독백",
     "이별놀이",
-    "아이작"
+    "아이작",
+    "그것을 언어라고 불러",
+    "경계선",
+    "까마귀와 백조"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -78,7 +81,10 @@ const audioFiles2_1 = [
     "../musics/part2/Beautiful Moon (mp3cut.net).mp3",
     "../musics/part2/Dokuhaku (mp3cut.net).mp3",
     "../musics/part2/Sayonara Gokko (mp3cut.net).mp3",
-    "../musics/part2/Isaac (mp3cut.net).mp3"
+    "../musics/part2/Isaac (mp3cut.net).mp3",
+    "../musics/part2/Sorewo kotobato iu (mp3cut.net).mp3",
+    "../musics/part2/Kyoukaisen (mp3cut.net).mp3",
+    "../musics/part2/karasu to hakuchou (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -115,7 +121,10 @@ const audioFiles2_2 = [
     "../musics/part2/Beautiful Moon (mp3cut.net) (1).mp3",
     "../musics/part2/Dokuhaku (mp3cut.net) (1).mp3",
     "../musics/part2/Sayonara Gokko (mp3cut.net) (1).mp3",
-    "../musics/part2/Isaac (mp3cut.net) (1).mp3"
+    "../musics/part2/Isaac (mp3cut.net) (1).mp3",
+    "../musics/part2/Sorewo kotobato iu (mp3cut.net) (1).mp3",
+    "../musics/part2/Kyoukaisen (mp3cut.net) (1).mp3",
+    "../musics/part2/karasu to hakuchou (mp3cut.net) (1).mp3"
 ];
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
