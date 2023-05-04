@@ -76,7 +76,7 @@ const audioFiles2_1 = [
     "../musics/part2/Kazoeuta (mp3cut.net).mp3",
     "../musics/part2/Sorani utaeba (mp3cut.net).mp3",
     "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net).mp3",
-    "../musicsp/art2/Tarareba (mp3cut.net).mp3",
+    "../musics/part2/Tarareba (mp3cut.net).mp3",
     "../musics/part2/Living Dead (mp3cut.net).mp3",
     "../musics/part2/Beautiful Moon (mp3cut.net).mp3",
     "../musics/part2/Dokuhaku (mp3cut.net).mp3",
