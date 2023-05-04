@@ -86,7 +86,7 @@ const audioFiles2_1 = [
     "../musics/part2/Kyoukaisen (mp3cut.net).mp3",
     "../musics/part2/karasu to hakuchou (mp3cut.net).mp3"
 ];
-//맞춘 노래 파일 넣는 배열
+//맞춘 노래 파일 넣는 배열임
 let tempAudioFiles2_1 = [];
 
 //0.1초 정답 공개용
