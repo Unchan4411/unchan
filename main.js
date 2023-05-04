@@ -23,7 +23,13 @@ const musics = [
     "유령",
     "셈노래",
     "하늘에 노래하면",
-    "달빛, 거리를 태우다"
+    "달빛, 거리를 태우다",
+    "그랬다면",
+    "리빙 데드",
+    "달이 아름다워",
+    "독백",
+    "이별놀이",
+    "아이작"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -66,7 +72,13 @@ const audioFiles2_1 = [
     "../musics/part2/Yurei (mp3cut.net).mp3",
     "../musics/part2/Kazoeuta (mp3cut.net).mp3",
     "../musics/part2/Sorani utaeba (mp3cut.net).mp3",
-    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net).mp3"
+    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net).mp3",
+    "../musicsp/art2/Tarareba (mp3cut.net).mp3",
+    "../musics/part2/Living Dead (mp3cut.net).mp3",
+    "../musics/part2/Beautiful Moon (mp3cut.net).mp3",
+    "../musics/part2/Dokuhaku (mp3cut.net).mp3",
+    "../musics/part2/Sayonara Gokko (mp3cut.net).mp3",
+    "../musics/part2/Isaac (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열
 let tempAudioFiles2_1 = [];
@@ -97,8 +109,14 @@ const audioFiles2_2 = [
     "../musics/part2/Yurei (mp3cut.net) (1).mp3",
     "../musics/part2/Kazoeuta (mp3cut.net) (1).mp3",
     "../musics/part2/Sorani utaeba (mp3cut.net) (1).mp3",
-    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net) (1).mp3"
-]
+    "../musics/part2/Gekkou Machi Wo Yaku (mp3cut.net) (1).mp3",
+    "../musics/part2/Tarareba (mp3cut.net) (1).mp3",
+    "../musics/part2/Living Dead (mp3cut.net) (1).mp3",
+    "../musics/part2/Beautiful Moon (mp3cut.net) (1).mp3",
+    "../musics/part2/Dokuhaku (mp3cut.net) (1).mp3",
+    "../musics/part2/Sayonara Gokko (mp3cut.net) (1).mp3",
+    "../musics/part2/Isaac (mp3cut.net) (1).mp3"
+];
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
 
