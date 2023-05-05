@@ -32,7 +32,17 @@ const musics = [
     "아이작",
     "그것을 언어라고 불러",
     "경계선",
-    "까마귀와 백조"
+    "까마귀와 백조",
+    "필로소피",
+    "월요일",
+    "카시오페아 계류소",
+    "여름을 기다리고 있었습니다",
+    "무제",
+    "폭탄을 만드는 방법",
+    "여름, 소식불명",
+    "카르마",
+    "기적",
+    "크리스마스"
 ];
 //맞춘 노래 제목 넣는 배열
 let tempMusics = [];
@@ -84,7 +94,17 @@ const audioFiles2_1 = [
     "../musics/part2/Isaac (mp3cut.net).mp3",
     "../musics/part2/Sorewo kotobato iu (mp3cut.net).mp3",
     "../musics/part2/Kyoukaisen (mp3cut.net).mp3",
-    "../musics/part2/karasu to hakuchou (mp3cut.net).mp3"
+    "../musics/part2/karasu to hakuchou (mp3cut.net).mp3",
+    "../musics/part2/Philosophy (mp3cut.net).mp3",
+    "../musics/part2/Getsuyoubi (mp3cut.net).mp3",
+    "../musics/part2/Cassiopeia keiryuujo (mp3cut.net).mp3",
+    "../musics/part2/Natsuwo matte imashita (mp3cut.net).mp3",
+    "../musics/part2/Mudai (mp3cut.net).mp3",
+    "../musics/part2/Bakudan no tsukurikata (mp3cut.net).mp3",
+    "../musics/part2/Natsu syousokufumei (mp3cut.net).mp3",
+    "../musics/part2/Karman (mp3cut.net).mp3",
+    "../musics/part2/Kiseki (mp3cut.net).mp3",
+    "../musics/part2/Christmas (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열임
 let tempAudioFiles2_1 = [];
@@ -124,7 +144,17 @@ const audioFiles2_2 = [
     "../musics/part2/Isaac (mp3cut.net) (1).mp3",
     "../musics/part2/Sorewo kotobato iu (mp3cut.net) (1).mp3",
     "../musics/part2/Kyoukaisen (mp3cut.net) (1).mp3",
-    "../musics/part2/karasu to hakuchou (mp3cut.net) (1).mp3"
+    "../musics/part2/karasu to hakuchou (mp3cut.net) (1).mp3",
+    "../musics/part2/Philosophy (mp3cut.net) (1).mp3",
+    "../musics/part2/Getsuyoubi (mp3cut.net) (1).mp3",
+    "../musics/part2/Cassiopeia keiryuujo (mp3cut.net) (1).mp3",
+    "../musics/part2/Natsuwo matte imashita (mp3cut.net) (1).mp3",
+    "../musics/part2/Mudai (mp3cut.net) (1).mp3",
+    "../musics/part2/Bakudan no tsukurikata (mp3cut.net) (1).mp3",
+    "../musics/part2/Natsu syousokufumei (mp3cut.net) (1).mp3",
+    "../musics/part2/Karman (mp3cut.net) (1).mp3",
+    "../musics/part2/Kiseki (mp3cut.net) (1).mp3",
+    "../musics/part2/Christmas (mp3cut.net) (1).mp3"
 ];
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
