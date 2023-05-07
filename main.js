@@ -201,7 +201,7 @@ const audioFiles2_2 = [
     "../musics/part2/Poesy (mp3cut.net) (1).mp3",
     "../musics/part2/Konbi ni gasa (mp3cut.net) (1).mp3",
     "../musics/part2/Anomie (mp3cut.net) (1).mp3",
-    "../musics/part2/Poesy (mp3cut.net) (1).mp3",
+    "../musics/part2/Risou no hana (mp3cut.net) (1).mp3",
     "../musics/part2/Omoroute yagate kanashiki higashiguchi (mp3cut.net) (1).mp3",
     "../musics/part2/Kono machide ikite iru (mp3cut.net) (1).mp3",
     "../musics/part2/Lovesong (mp3cut.net) (1).mp3",
