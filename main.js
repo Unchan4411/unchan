@@ -42,7 +42,28 @@ const musics = [
     "여름, 소식불명",
     "카르마",
     "기적",
-    "크리스마스"
+    "크리스마스",
+    "포르노 영화의 간판 아래에서",
+    "포에지",
+    "편의점 우산",
+    "아노미",
+    "이상의 꽃",
+    "즐겁다가도 이내 슬퍼지는 동쪽 출입구",
+    "이 거리에서 살아가고 있어",
+    "러브송",
+    "흘러가 흘러가",
+    "신사복에 꽃",
+    "이름 없는 사람",
+    "할렐루야",
+    "아이스크림",
+    "어폴로지",
+    "까마귀",
+    "맑은 하늘",
+    "기도",
+    "바람따라 떠도니",
+    "쥬브나일",
+    "봄 기다림",
+    "성선설"
 ];
 //맞춘 노래 제목 넣는 배열임
 let tempMusics = [];
@@ -104,7 +125,28 @@ const audioFiles2_1 = [
     "../musics/part2/Natsu syousokufumei (mp3cut.net).mp3",
     "../musics/part2/Karman (mp3cut.net).mp3",
     "../musics/part2/Kiseki (mp3cut.net).mp3",
-    "../musics/part2/Christmas (mp3cut.net).mp3"
+    "../musics/part2/Christmas (mp3cut.net).mp3",
+    "../musics/part2/Porunoeiga no kanban no sita de (mp3cut.net).mp3",
+    "../musics/part2/Poesy (mp3cut.net).mp3",
+    "../musics/part2/Konbi ni gasa (mp3cut.net).mp3",
+    "../musics/part2/Anomie (mp3cut.net).mp3",
+    "../musics/part2/Risou no hana (mp3cut.net).mp3",
+    "../musics/part2/Omoroute yagate kanashiki higashiguchi (mp3cut.net).mp3",
+    "../musics/part2/Kono machide ikite iru (mp3cut.net).mp3",
+    "../musics/part2/Lovesong (mp3cut.net).mp3",
+    "../musics/part2/NagaruNagaru (mp3cut.net).mp3",
+    "../musics/part2/Sebironihana (mp3cut.net).mp3",
+    "../musics/part2/Namonaki hito (mp3cut.net).mp3",
+    "../musics/part2/Hallelujah (mp3cut.net).mp3",
+    "../musics/part2/IceCream (mp3cut.net).mp3",
+    "../musics/part2/Apology (mp3cut.net).mp3",
+    "../musics/part2/Karasu (mp3cut.net).mp3",
+    "../musics/part2/HaruruSora (mp3cut.net).mp3",
+    "../musics/part2/Inori (mp3cut.net).mp3",
+    "../musics/part2/Kazenisasurai (mp3cut.net).mp3",
+    "../musics/part2/Juvenile (mp3cut.net).mp3",
+    "../musics/part2/Harumachi (mp3cut.net).mp3",
+    "../musics/part2/Seizensetsu (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열임
 let tempAudioFiles2_1 = [];
@@ -154,7 +196,28 @@ const audioFiles2_2 = [
     "../musics/part2/Natsu syousokufumei (mp3cut.net) (1).mp3",
     "../musics/part2/Karman (mp3cut.net) (1).mp3",
     "../musics/part2/Kiseki (mp3cut.net) (1).mp3",
-    "../musics/part2/Christmas (mp3cut.net) (1).mp3"
+    "../musics/part2/Christmas (mp3cut.net) (1).mp3",
+    "../musics/part2/Porunoeiga no kanban no sita de (mp3cut.net) (1).mp3",
+    "../musics/part2/Poesy (mp3cut.net) (1).mp3",
+    "../musics/part2/Konbi ni gasa (mp3cut.net) (1).mp3",
+    "../musics/part2/Anomie (mp3cut.net) (1).mp3",
+    "../musics/part2/Poesy (mp3cut.net) (1).mp3",
+    "../musics/part2/Omoroute yagate kanashiki higashiguchi (mp3cut.net) (1).mp3",
+    "../musics/part2/Kono machide ikite iru (mp3cut.net) (1).mp3",
+    "../musics/part2/Lovesong (mp3cut.net) (1).mp3",
+    "../musics/part2/NagaruNagaru (mp3cut.net) (1).mp3",
+    "../musics/part2/Sebironihana (mp3cut.net) (1).mp3",
+    "../musics/part2/Namonaki hito (mp3cut.net) (1).mp3",
+    "../musics/part2/Hallelujah (mp3cut.net) (1).mp3",
+    "../musics/part2/IceCream (mp3cut.net) (1).mp3",
+    "../musics/part2/Apology (mp3cut.net) (1).mp3",
+    "../musics/part2/Karasu (mp3cut.net) (1).mp3",
+    "../musics/part2/HaruruSora (mp3cut.net) (1).mp3",
+    "../musics/part2/Inori (mp3cut.net) (1).mp3",
+    "../musics/part2/Kazenisasurai (mp3cut.net) (1).mp3",
+    "../musics/part2/Juvenile (mp3cut.net) (1).mp3",
+    "../musics/part2/Harumachi (mp3cut.net) (1).mp3",
+    "../musics/part2/Seizensetsu (mp3cut.net) (1).mp3"
 ];
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
