@@ -63,7 +63,20 @@ const musics = [
     "바람따라 떠도니",
     "쥬브나일",
     "봄 기다림",
-    "성선설"
+    "성선설",
+    "미사일",
+    "나는 훔친다",
+    "퍼펙트 라이프",
+    "서문",
+    "당신에게",
+    "익명희망",
+    "냉동수면",
+    "끝이자 시작",
+    "후기",
+    "별들의 장례행렬",
+    "내일이면 어른이 되는 너에게",
+    "허무병",
+    "메이데이 메이데이"
 ];
 //맞춘 노래 제목 넣는 배열임
 let tempMusics = [];
@@ -146,7 +159,20 @@ const audioFiles2_1 = [
     "../musics/part2/Kazenisasurai (mp3cut.net).mp3",
     "../musics/part2/Juvenile (mp3cut.net).mp3",
     "../musics/part2/Harumachi (mp3cut.net).mp3",
-    "../musics/part2/Seizensetsu (mp3cut.net).mp3"
+    "../musics/part2/Seizensetsu (mp3cut.net).mp3",
+    "../musics/part2/missile (mp3cut.net).mp3",
+    "../musics/part2/Oreha nusumu (mp3cut.net).mp3",
+    "../musics/part2/perfectlife (mp3cut.net).mp3",
+    "../musics/part2/maegaki (mp3cut.net).mp3",
+    "../musics/part2/antae (mp3cut.net).mp3",
+    "../musics/part2/tokumeikibou (mp3cut.net).mp3",
+    "../musics/part2/Reitousuimin (mp3cut.net).mp3",
+    "../musics/part2/Owaridehazimari (mp3cut.net).mp3",
+    "../musics/part2/atogaki (mp3cut.net).mp3",
+    "../musics/part2/Hoshiboshino Soretsu (mp3cut.net).mp3",
+    "../musics/part2/Ashitaniha Otonaninaru Kimie (mp3cut.net).mp3",
+    "../musics/part2/Kyomubyou (mp3cut.net).mp3",
+    "../musics/part2/Medemede (mp3cut.net).mp3"
 ];
 //맞춘 노래 파일 넣는 배열임
 let tempAudioFiles2_1 = [];
@@ -217,7 +243,20 @@ const audioFiles2_2 = [
     "../musics/part2/Kazenisasurai (mp3cut.net) (1).mp3",
     "../musics/part2/Juvenile (mp3cut.net) (1).mp3",
     "../musics/part2/Harumachi (mp3cut.net) (1).mp3",
-    "../musics/part2/Seizensetsu (mp3cut.net) (1).mp3"
+    "../musics/part2/Seizensetsu (mp3cut.net) (1).mp3",
+    "../musics/part2/missile (mp3cut.net) (1).mp3",
+    "../musics/part2/Oreha nusumu (mp3cut.net) (1).mp3",
+    "../musics/part2/perfectlife (mp3cut.net) (1).mp3",
+    "../musics/part2/maegaki (mp3cut.net) (1).mp3",
+    "../musics/part2/antae (mp3cut.net) (1).mp3",
+    "../musics/part2/tokumeikibou (mp3cut.net) (1).mp3",
+    "../musics/part2/Reitousuimin (mp3cut.net) (1).mp3",
+    "../musics/part2/Owaridehazimari (mp3cut.net) (1).mp3",
+    "../musics/part2/atogaki (mp3cut.net) (1).mp3",
+    "../musics/part2/Hoshiboshino Soretsu (mp3cut.net) (1).mp3",
+    "../musics/part2/Ashitaniha Otonaninaru Kimie (mp3cut.net) (1).mp3",
+    "../musics/part2/Kyomubyou (mp3cut.net) (1).mp3",
+    "../musics/part2/Medemede (mp3cut.net) (1).mp3"
 ];
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
@@ -244,6 +283,9 @@ function PlayMusic(musicElement) {
     audio1 = new Audio(musicElement);
     audio1.loop = false; // 반복재생하지 않음
     audio1.volume = 0.7; // 음량 설정
+    var maxDuration = audio.duration; // MP3 파일의 총 재생 시간을 가져옵니다.
+    var randomTime = Math.random() * maxDuration; // 0부터 총 재생 시간 사이의 랜덤한 시간을 생성합니다.
+    audio1.currentTime = randomTime; // 랜덤한 초로 이동합니다.
     audio1.play(); // sound1.mp3 재생
 
     return audio1;
