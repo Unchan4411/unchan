@@ -78,7 +78,7 @@ const musics = [
     "허무병",
     "메이데이 메이데이"
 ];
-//맞춘 노래 제목 넣는 배열임
+//맞춘 노래 제목 넣는 배열
 let tempMusics = [];
 
 //하이라이트용
@@ -174,10 +174,12 @@ const audioFiles2_1 = [
     "../musics/part2/Kyomubyou (mp3cut.net).mp3",
     "../musics/part2/Medemede (mp3cut.net).mp3"
 ];
+
 //맞춘 노래 파일 넣는 배열임
 let tempAudioFiles2_1 = [];
 
 //0.1초 정답 공개용
+
 const audioFiles2_2 = [
     "../musics/part2/Ameotoko (mp3cut.net) (1).mp3",
     "../musics/part2/Bokuga Shinouto Omottanoha (mp3cut.net) (1).mp3",
@@ -258,6 +260,7 @@ const audioFiles2_2 = [
     "../musics/part2/Kyomubyou (mp3cut.net) (1).mp3",
     "../musics/part2/Medemede (mp3cut.net) (1).mp3"
 ];
+
 //정답 공개용 노래 파일 넣는 배열
 let tempAudioFiles2_2 = [];
 
@@ -283,9 +286,6 @@ function PlayMusic(musicElement) {
     audio1 = new Audio(musicElement);
     audio1.loop = false; // 반복재생하지 않음
     audio1.volume = 0.7; // 음량 설정
-    var maxDuration = audio.duration; // MP3 파일의 총 재생 시간을 가져옵니다.
-    var randomTime = Math.random() * maxDuration; // 0부터 총 재생 시간 사이의 랜덤한 시간을 생성합니다.
-    audio1.currentTime = randomTime; // 랜덤한 초로 이동합니다.
     audio1.play(); // sound1.mp3 재생
 
     return audio1;
